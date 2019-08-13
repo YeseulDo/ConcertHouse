@@ -1,0 +1,190 @@
+@CHARSET "EUC-KR";
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.title_font{
+	color: white;
+	text-shadow: 4px 0 8px #ffffff;
+	letter-spacing: 15px;
+}
+
+#title_back{
+	height: 350px;
+ 	background-image: url("/PROJECT_01/img/1.jpg"); 
+	background-size:cover;
+	color: white;
+	text-shadow: 3px 0 6px #333;
+}
+
+
+#title_back2{
+	height: 350px;
+	background-image: url("/PROJECT_01/img/2.jpg");
+	background-size:cover;
+	color: white;
+	text-shadow: 3px 0 6px #333; 	
+}
+
+#title_back3{
+	height: 350px;
+	background-image: url("/PROJECT_01/img/3.jpg");
+	background-size: cover;
+	background-position:center center ;
+	color: white;
+	text-shadow: 3px 0 6px #333; 
+	
+}
+
+#title_back p, #title_back2 p, #title_back3 p{
+	color: #ffffff;
+	font-weight: bolder;
+	text-shadow: 0 0 3px #000000;
+}
+
+body{
+	background-color: #fffdf9 !important;
+	align-items: center;
+}
+
+#indexBody{
+	background-image: url("/PROJECT_01/img/4.jpg");
+	background-size: cover;
+} 
+
+#checkPwd1, #checkPwd2, #checkEmail{
+	font-family: 'Noto Serif KR', serif;
+	font-size: 0.8em;
+	float: right;
+}
+
+label{
+	font-family: 'Noto Serif KR', serif;
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #484848;
+}
+
+
+/* signup.jsp */
+#container{
+  max-width: 960px;
+}
+
+.lh-condensed { line-height: 1.25; }
+
+
+/* board_rental.jsp */
+#tBody tr td:NOT(:NTH-CHILD(2)) {
+	text-align: center;
+}
+
+#content{
+	text-decoration: none;
+	color: inherit;
+}
+
+
+/* content_rental.jsp */
+
+#contentHeader td:NOT(:NTH-CHILD(1)) {
+	text-align: center;
+}
+
+#comment{
+	height: auto; width: 100%;
+	margin: auto;
+	padding: 0.5em 1em 0.5em 1em;
+	background-color: #efefef;
+}
+
+#comTable{
+	width: 100%;
+	margin: 10px auto;
+	padding: auto 10px;
+	background-color: #f9f9f9;
+	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+#comTable tr td:NTH-CHILD(1) {
+	text-align: center;
+	width: 10%;
+	font-size: small;
+	font-weight: bold;
+}
+#comTable tr td:NTH-CHILD(2) {
+	text-align: left;
+	padding-left: 1em;
+}
+#comTable tr td:NTH-CHILD(3) {
+	text-align: right;
+	width: 10%;
+	font-size: small;
+}
+#comTable tr td:NTH-CHILD(4) {
+	text-align: center;
+	width: 10%;
+	font-size: small;
+}
+#comTable tr td a:LINK{
+	text-decoration: none;
+	color: inherit;
+}
+
+#textarea{
+	text-align: center;
+	margin: auto;
+	width: 100%;
+}
+
+#textarea td:NTH-CHILD(1){width: 7%;}
+#textarea td:NTH-CHILD(3){width: 7%;}
+
+/* post_rental.jsp */
+
+.fileUD{
+	height: 30px !important;
+}
+
+#check{
+	font-size: 0.8em;
+	font-weight: bold;
+	line-height: 30px;
+	font-family: 'Noto Serif KR', serif;
+}
+
+
+/* board_audience.jsp */
+
+#content_aud{
+	overflow: auto;
+	height: 80px;
+	background-attachment: scroll;
+}
+
+/* post_audience.jsp */
+
+#out{
+	text-align: center;
+}
+
+#in{
+	display: inline-block;
+	width: 55%;
+	text-align: right;
+}
+
+#img{
+	height: 500px;
+	text-align: center;
+}
+
+#check_img{
+	line-height: 500px;
+	font-size: 0.8em;
+	font-weight: bold;
+	font-family: 'Noto Serif KR', serif;
+}
+	
