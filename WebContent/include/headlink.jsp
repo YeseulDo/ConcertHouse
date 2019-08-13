@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     
-<link rel="stylesheet"	href="/PROJECT_01/css/common.css">    
-<link rel="stylesheet"	href="/PROJECT_01/css/bootstrap.css">
+<link rel="stylesheet"	href="/concerthouse/css/common.css">    
+<link rel="stylesheet"	href="/concerthouse/css/bootstrap.css">
 <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR|Open+Sans&display=swap" rel="stylesheet">
 
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>

@@ -10,7 +10,7 @@
 <title>CONCERT HALL</title>
 
 <jsp:include page="../include/headlink.jsp"/>
-<script type="text/javascript" src="/PROJECT_01/ckeditor/ckeditor.js"></script>	
+<script type="text/javascript" src="/concerthouse/ckeditor/ckeditor.js"></script>	
 
 <%
 	if((String)session.getAttribute("email") == null) {

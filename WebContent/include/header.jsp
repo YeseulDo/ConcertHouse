@@ -10,7 +10,7 @@
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 	
 	<div class="container">
-		<a class="navbar-brand" href="/PROJECT_01/index.jsp">CONCERT HOUSE</a>
+		<a class="navbar-brand" href="/concerthouse/index.jsp">CONCERT HOUSE</a>
 			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
 					data-target="#navbarsExample07" aria-controls="navbarsExample07"
 					aria-expanded="false" aria-label="Toggle navigation">
@@ -21,13 +21,13 @@
 				
 				<!-- 드롭다운 메뉴 시작 -->
 				<li class="nav-item dropdown">
-					<a class="nav-link" href="/PROJECT_01/board_rental/board_rental.jsp" id="dropdown02" 
+					<a class="nav-link" href="/concerthouse/board_rental/board_rental.jsp" id="dropdown02" 
 					aria-haspopup="true" aria-expanded="false">
 						대관신청
 					</a>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link" href="/PROJECT_01/board_audience/board_audience.jsp" id="dropdown03"
+					<a class="nav-link" href="/concerthouse/board_audience/board_audience.jsp" id="dropdown03"
 					aria-haspopup="true" aria-expanded="false">
 						공연후기
 					</a>
@@ -44,7 +44,7 @@
 <%
 				String email = (String) session.getAttribute("email");
 				if(email==null||email.length()==0){
-%>					<a class="btn btn-sm btn-outline-secondary" href="/PROJECT_01/member/login.jsp">
+%>					<a class="btn btn-sm btn-outline-secondary" href="/concerthouse/member/login.jsp">
 					LOGIN / SIGN-UP
 					</a>
 <%				}else{
@@ -54,9 +54,9 @@
 					
 %>					<span style="color: white;"><b><%=name %></b>님 환영합니다:-)</span>
 					<span>&nbsp; &nbsp;</span>
-					<a class="btn-sm btn-outline-secondary" href="/PROJECT_01/member/modify.jsp">
+					<a class="btn-sm btn-outline-secondary" href="/concerthouse/member/modify.jsp">
 					EDIT</a>
-					<a class="btn-sm btn-outline-secondary" href="/PROJECT_01/member/logout.jsp">
+					<a class="btn-sm btn-outline-secondary" href="/concerthouse/member/logout.jsp">
 					LOGOUT</a>					
 <%				}
 			
