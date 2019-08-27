@@ -10,13 +10,16 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   
-  	<servlet>
-		<servlet-name>MemberController</servlet-name>
-		<servlet-class>cargo.member.controller.MemberController</servlet-class>
+
+  
+	<servlet>
+		<servlet-name>ExampleController</servlet-name>
+		<servlet-class>cargo.example.ExampleController</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>MemberController</servlet-name>
-		<url-pattern>/me/*</url-pattern>
+		<servlet-name>ExampleController</servlet-name>
+		<url-pattern>*</url-pattern>
 	</servlet-mapping>
+  
   
 </web-app>
